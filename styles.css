@@ -1,0 +1,50 @@
+* {
+    font-family: Verdana, Arial;
+}
+
+body {
+    background-color: rgb(241, 252, 248);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, span {
+    font-size: 45px;
+    margin-top: 0;
+}
+
+h1 {
+    color: rgb(1, 1, 70);
+}
+
+span {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.btn-container {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 6px 10px;
+    background-color: rgb(241, 252, 248);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+}
